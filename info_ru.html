@@ -6,55 +6,81 @@
 <title>Welcome Journey</title>
 <style>
 body{margin:0;font-family:Arial,sans-serif;background:linear-gradient(180deg,#081226,#132c5b);color:#fff}
-.hero{padding:40px 20px;text-align:center;background:linear-gradient(135deg,#1e40af,#312e81)}
-.hero h1{margin:0;font-size:32px}
-.hero p{opacity:.9}
-.card{background:rgba(255,255,255,.08);margin:16px;border-radius:16px;padding:20px;backdrop-filter:blur(6px)}
-.reward{display:flex;gap:10px;flex-wrap:wrap}
-.badge{background:#243b6b;padding:10px 14px;border-radius:999px}
-details{background:#102347;padding:12px;border-radius:10px;margin:8px 0}
+.hero{padding:20px 12px;text-align:center;background:linear-gradient(135deg,#1e40af,#312e81)}
+.hero h1{margin:0;font-size:20px;word-break:break-word}
+.hero p{opacity:.9;font-size:12px;margin:8px 0 0 0}
+.card{background:rgba(255,255,255,.08);margin:8px;border-radius:12px;padding:12px;backdrop-filter:blur(6px)}
+.card h2{font-size:14px;margin:0 0 8px 0}
+.card p{font-size:12px;margin:0;line-height:1.4}
+.card ol{font-size:12px;margin:8px 0;padding-left:20px}
+.reward{display:flex;gap:6px;flex-wrap:wrap;justify-content:center}
+.badge{background:#243b6b;padding:6px 10px;border-radius:999px;font-size:11px;white-space:nowrap}
+details{background:#102347;padding:8px;border-radius:8px;margin:6px 0;font-size:12px}
+details summary{cursor:pointer;font-weight:bold;outline:none}
+@media (min-width:300px) and (max-width:450px){
+body{font-size:12px}
+.hero{padding:16px 10px}
+.hero h1{font-size:18px}
+.hero p{font-size:11px}
+.card{margin:6px;padding:10px}
+.card h2{font-size:13px;margin:0 0 6px 0}
+.card p{font-size:11px}
+.badge{padding:5px 8px;font-size:10px}
+details{padding:6px;margin:4px 0}
+}
+@media (max-width:350px){
+.hero{padding:12px 8px}
+.hero h1{font-size:16px}
+.hero p{font-size:10px}
+.card{margin:4px;padding:8px}
+.card h2{font-size:12px}
+.card p{font-size:10px}
+.card ol{font-size:10px}
+.badge{padding:4px 6px;font-size:9px}
+details{padding:5px;margin:3px 0;font-size:10px}
+}
 </style>
 </head>
 <body>
 <div class="hero">
-<h1>🏆 Welcome Journey</h1>
-<p>Russian Version</p>
+<h1>🏆 Путешествие Приветствия</h1>
+<p>Русская Версия</p>
 </div>
 
 <div class="card">
-<h2>About</h2>
-<p>Complete missions, earn points, unlock badges, and climb the leaderboard.</p>
+<h2>О нас</h2>
+<p>Выполняйте миссии, зарабатывайте очки, открывайте значки и поднимайтесь в рейтинге.</p>
 </div>
 
 <div class="card">
-<h2>How It Works</h2>
+<h2>Как это работает</h2>
 <ol>
-<li>Join the event</li>
-<li>Complete missions</li>
-<li>Earn points</li>
-<li>Unlock rewards</li>
+<li>Присоединитесь к событию</li>
+<li>Выполняйте миссии</li>
+<li>Зарабатывайте очки</li>
+<li>Открывайте награды</li>
 </ol>
 </div>
 
 <div class="card">
-<h2>Rewards</h2>
+<h2>Награды</h2>
 <div class="reward">
-<div class="badge">🥇 Gold Reward</div>
-<div class="badge">🥈 Silver Reward</div>
-<div class="badge">🥉 Bronze Reward</div>
+<div class="badge">🥇 Золотая награда</div>
+<div class="badge">🥈 Серебряная награда</div>
+<div class="badge">🥉 Бронзовая награда</div>
 </div>
 </div>
 
 <div class="card">
-<h2>FAQ</h2>
-<details><summary>What is Welcome Journey?</summary><p>A mission-based event.</p></details>
-<details><summary>How do I earn points?</summary><p>Complete missions.</p></details>
-<details><summary>Who can join?</summary><p>All eligible users.</p></details>
+<h2>Часто Задаваемые Вопросы</h2>
+<details><summary>Что такое Путешествие Приветствия?</summary><p>Событие на основе миссий.</p></details>
+<details><summary>Как я зарабатываю очки?</summary><p>Выполняйте миссии.</p></details>
+<details><summary>Кто может участвовать?</summary><p>Все имеющие право пользователи.</p></details>
 </div>
 
 <div class="card">
-<h2>Support</h2>
-<p>Contact support for assistance.</p>
+<h2>Поддержка</h2>
+<p>Свяжитесь с поддержкой для получения помощи.</p>
 </div>
 </body>
 </html>
